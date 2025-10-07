@@ -73,6 +73,7 @@ open class Perro(): Animal() {
         t.presentacion()
         println("******************Polimorfismo***************************")
         val listAnimal: List<Animal> = listOf(Perro(), Pajaro(), Animal())
+
         for (animal: Animal in listAnimal) {
             animal.hacerSonido()
         }
